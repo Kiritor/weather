@@ -1,9 +1,7 @@
-package weather
+package main
 
-type weather struct {
-
-    temp                     float32           //温度
-	max_temp                 float32           //最高温度
-	min_temp                 float32           //最低温度
-
+type Weather struct {
+	Temperature float32
+	Max_temp    float32
+	Min_temp    float32
 }
